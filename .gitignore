@@ -1,30 +1,96 @@
-### IntelliJ IDEA ###
+# ==============================================================================
+# Compiled Class Files & Archives
+# ==============================================================================
+*.class
+*.war
+*.ear
+
+# Allow course sample binaries in chapter-24
+!starting-workspace/chapter-24/*.class
+!starting-workspace/chapter-24/*.jar
+
+# ==============================================================================
+# JVM Diagnostics, Profiling & Crash Logs
+# ==============================================================================
+hs_err_pid*.log
+replay_pid*.log
+*.hprof
+*.jfr
+*.log
+gc.log*
+*.gc.log
+
+# ==============================================================================
+# Build Tool Artifacts
+# ==============================================================================
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+
+# ==============================================================================
+# IDEs & Editors
+# ==============================================================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
 
-### Eclipse ###
+# Eclipse
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-### VS Code ###
+# Visual Studio Code
 .vscode/
 
-### Mac OS ###
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+
+# Linux
+*~
